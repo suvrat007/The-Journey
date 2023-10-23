@@ -35,28 +35,49 @@ public class flowcharts {
             
         // }
 
-// 4. WAP to find HCF and LCM
+// 4. WAP to find HCF and LCM................... (FOR REVIEW)
 
-        System.out.print("ENTER FIRST NUMBER : ");
-        int num1=sc.nextInt();
-        System.out.print("ENTER SECONF NUMBER : ");
-        int num2=sc.nextInt();
-        int hcf=0,max;
+        // System.out.print("ENTER FIRST NUMBER : ");
+        // int num1=sc.nextInt();
+        // System.out.print("ENTER SECONF NUMBER : ");
+        // int num2=sc.nextInt();
+        // int hcf=0,max;
 
-        if(num1>num2){
-            max=num1;
-        }else{
-            max=num2;
-        }
-        //HCF
+        // if(num1>num2){
+        //     max=num1;
+        // }else{
+        //     max=num2;
+        // }
+        // //HCF
 
-        for (int i = 1; i <= max; i++) {
-            if(i<=max && hcf%i==0){
-                hcf/=i;
-            }
+        // for (int i = 1; i <= max; i++) {
+        //     if(i<=max && hcf%i==0){
+        //         hcf/=i;
+        //     }
             
-        }
-        System.out.print("HCF is " + hcf);
+        // }
+        // System.out.print("HCF is " + hcf);
+
+// 5. WAP summ till x
+
+        int sum=0;
+        boolean ver=true;
+
+        while(ver){
+            System.out.print("ENTER NUMBER : ");
+            char num=sc.next().trim().charAt(0);
+            if (num!='x'||num!='X'){
+                int n= Character.getNumericValue(num);
+                sum=sum+n;          
+            }else{
+                System.out.print("SUM = "+ sum);
+                ver=false;
+                break;
+            }
+        
+        
+
+    }
 
 
 
