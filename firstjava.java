@@ -6,6 +6,7 @@ public class firstjava {
     // sc.input().trim().charAt().......trim() will remove everything extra from aage peeche of the string like spaces
     // charAt(0)....charater at 0 pos
     // SHORTCUT: fori-> for loop ke liye
+    // PALINDROME karne ka naya tareeka !!!!!
     public static void main(String[] args) {
 
 // 1. WAP to check odd or even
@@ -98,11 +99,15 @@ public class firstjava {
 
 // 8. WAP for string palindrome
 
-        System.out.println("ENTER STRING : ");
-        String str=sc.next();
-        String str1;
-        for (int i = str.length(); i >0 ; i--) {
-            str1+=str.charAt(i);
+//        System.out.println("ENTER STRING : ");
+//        String str=sc.next();
+//
+//        for (int i = 0, j = str.length() - 1; i < j; i++, j--) {
+//            if (!str.charAt(i).equals(str.charAt(j))){
+//                System.out.println("not palindrome");
+//            }else{
+//                System.out.println("palindrome");
+//            }
 
         }
 
@@ -113,5 +118,5 @@ public class firstjava {
 
     }
     
-    
-}
+
+
