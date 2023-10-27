@@ -62,24 +62,24 @@ public class flowcharts {
 
     // NEW FUNCTION Character.getNumericValue()
 
-        int sum=0;
-        boolean ver=true;
+//        int sum=0;
+//        boolean ver=true;
+//
+//        while(ver){
+//            System.out.print("ENTER NUMBER : ");
+//            char num=sc.next().trim().charAt(0);
+//            if (num=='x'||num=='X'){
+//                System.out.print("SUM = "+ sum);
+//
+//                ver=false;
+//            }else{
+//                int n=Character.getNumericValue(num);
+//                sum+=n;
+//            }
 
-        while(ver){
-            System.out.print("ENTER NUMBER : ");
-            char num=sc.next().trim().charAt(0);
-            if (num=='x'||num=='X'){
-                System.out.print("SUM = "+ sum);
 
-                ver=false;         
-            }else{
-                int n=Character.getNumericValue(num);
-                sum+=n;
-            }
-        
-        
 
-    }
+
 
 
 
