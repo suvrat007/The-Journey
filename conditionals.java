@@ -136,23 +136,23 @@ public class conditionals {
 //WAP for int input and tell lasrgest number
 
 
-        int  max = 0;
-
-
-        while(true){
-            System.out.println("enter number : ");
-            int num = sc.nextInt();
-
-            if (num != 0) {
-                if (num > max) {
-                    max = num;
-                }
-            } else {
-                System.out.println(max);
-                break;
-
-            }
-    }
+//        int  max = 0;
+//
+//
+//        while(true){
+//            System.out.println("enter number : ");
+//            int num = sc.nextInt();
+//
+//            if (num != 0) {
+//                if (num > max) {
+//                    max = num;
+//                }
+//            } else {
+//                System.out.println(max);
+//                break;
+//
+//            }
+//    }
     }
 }
 
