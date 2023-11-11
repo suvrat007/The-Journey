@@ -7,11 +7,14 @@ public class functions {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int num1=sc.nextInt();
-        int num2=sc.nextInt();
-        System.out.println("sum = " + sum(num1,num2));
-        System.out.println("product = "+ prod(num1,num2));
-        prime(num1,num2);
 
+//        int num2=sc.nextInt();
+//        System.out.println("sum = " + sum(num1,num2));
+//        System.out.println("product = "+ prod(num1,num2));
+//        prime(num1,num2);
+//        grade(num1);
+//        fact(num1);
+        palind(num1);
     }
     static int sum(int a, int b){
         return a+b;
@@ -43,5 +46,64 @@ public class functions {
                 break;
             }
         }
+
     }
+
+    static void grade(int a){
+        if (a<=100 && a>=91){
+            System.out.println("AA");
+        } else if (a>=81 && a<=90) {
+            System.out.println("AB");
+        }else if (a>=71 && a<=80) {
+            System.out.println("BB");
+        }else if (a>=61 && a<=70) {
+            System.out.println("BC");
+        }else if (a>=51 && a<=60) {
+            System.out.println("CD");
+        }else if (a>=41 && a<=50) {
+            System.out.println("DD");
+        }else if (a<=40) {
+            System.out.println("FAIL");
+        }
+    }
+
+    static void fact(int a){
+        int fac=1;
+        if(a==1 ||a==0){
+            System.out.print("1");
+        }else{
+
+        for (int i = 0; i < a; i++) {
+            int b = (a - i);
+            if (i == (a - 1)) {
+                System.out.print(b + " = " + fac);
+            } else {
+                System.out.print(b + " * ");
+                fac = fac * b;
+            }
+
+            }
+
+
+        }
+    }
+
+    static void palind(int a) {
+        int n,rem,sum=0,c;
+        c=a;
+        while (a>0){
+
+            rem=a%10;
+            sum=(sum*10)+rem;
+            a=a/10;
+
+
+        }
+        if(sum==c){
+            System.out.println("palindrome");
+        }else{
+            System.out.println("not palindrome");
+        }
+    }
+
 }
