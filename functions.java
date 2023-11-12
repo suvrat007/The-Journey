@@ -6,7 +6,7 @@ public class functions {
     
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int num1=sc.nextInt();
+//        int num1=sc.nextInt();
 
 //        int num2=sc.nextInt();
 //        System.out.println("sum = " + sum(num1,num2));
@@ -14,7 +14,8 @@ public class functions {
 //        prime(num1,num2);
 //        grade(num1);
 //        fact(num1);
-        palind(num1);
+//        palind(num1);
+        pyth();
     }
     static int sum(int a, int b){
         return a+b;
@@ -104,6 +105,44 @@ public class functions {
         }else{
             System.out.println("not palindrome");
         }
+    }
+    static void pyth(){
+        //to take arrays as input parameter....
+        Scanner sc=new Scanner(System.in);
+        System.out.print("enter total number of num u wanna enter : ");
+        int lim=sc.nextInt();
+        int [] arr=new int[lim];
+        for (int i = 0; i < lim; i++) {
+            System.out.print("Enter ur number : ");
+            arr[i]=sc.nextInt();
+
+        }
+        int m=0,s=0;
+
+        for (int i = 0; i < arr.length; i++) {
+            int a =arr[i];
+            for (int j = 0; j < arr.length; j++) {
+                int b=arr[j];
+                for (int k = 0; k < arr.length; k++) {
+                    int c=arr[k];
+                    if ((a*a)+(b*b)==(c*c)){
+                        m+=1;
+                    }else {
+                        s+=1;
+                    }
+
+                }
+
+            }
+        }
+        if (m>0){
+            System.out.println("has pyth triplet");
+
+        }else{
+            System.out.println("no pytha triplet");
+        }
+
+
     }
 
 }

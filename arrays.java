@@ -15,5 +15,18 @@ public class arrays {
                             /* for (int a : arr){
                             * sout (Arrays.toString(a))
                             * }*/
+    // ArrayList<integer> list = new Arraylist <>();
+                    // for arrays who u do not know the size
+                    // list.add() , list.set(index, towhat), list.remove(index), list.get(index)
+                    // arraylist does have a limit....but when limit is reached....new list created....old ones added to new....new elements add to new too
+
+    public static void main(String[] args) {
+        
+    }
+
+
+
+
+
 
 }
