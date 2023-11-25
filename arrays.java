@@ -126,6 +126,40 @@ public class arrays {
         System.out.println(Arrays.toString(arr));*/
 
 
+        int[][] matrix={{1,10,4,2},{9,3,8,7},{15,16,17,12}};
+        int minval=0,index=0,max=0;
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 1; j < matrix[i].length; j++) {
+                minval=matrix[i][0];
+
+                if (matrix[i][j]<minval){
+                    minval=matrix[i][j];
+                    index=j;
+                }
+
+            }
+
+            for (int j = 0; j < matrix.length; j++) {
+                max=matrix[0][index];
+                for (int k = 1; k < matrix.length; k++) {
+                    if (max < matrix[k][index]) {
+                        max = matrix[k][index];
+                    }
+                }
+            if (max==minval){
+                System.out.println("luncky nummber = "+ minval);
+                break;
+                }
+
+            }
+
+
+
+
+        }
+
+
+
 
 
 
