@@ -186,7 +186,41 @@ public class arrays {
 
         }*/
 
-        
+
+// 7. GOOD PAIRS IN array
+/*
+        int[] nums={1,2,3};
+        int sum=0;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i+1;j < nums.length; j++) {
+                if (nums[i]==nums[j]) {
+                    System.out.print("(" + i + "," + j + ")");
+                    sum++;
+                }
+            }
+        }
+        System.out.println();
+        System.out.println("total good pairs = "+sum);*/
+
+// 8. numbers smaller than current
+/*        int[] nums = {7,7,7,7};
+        int[] arr=new int[nums.length];
+        int grter=0;
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums.length; j++) {
+                if (nums[i]>nums[j]){
+                    grter++;
+                }
+            }
+            arr[i]=grter;
+            grter=0;
+        }
+        System.out.println(Arrays.toString(arr));*/
+
+
+
+
 
 
 
