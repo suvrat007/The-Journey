@@ -125,7 +125,35 @@ public class arrays {
         }
         System.out.println(Arrays.toString(arr));*/
 
+// 6. KIDS and candies wala
 
+/*        int[] candies = {4,2,1,1,2};
+        int extraCandies = 1;
+        Boolean[] arr = new Boolean[candies.length];
+        int sum=0;
+
+        for (int i = 0; i < candies.length; i++) {
+            int temp = candies[i]+extraCandies;
+
+
+            for (int j = 0; j < candies.length; j++) {
+                if (temp >= candies[j]) {
+                    sum++;
+
+                }
+            }
+            if(sum==candies.length){
+                arr[i]=true;
+            }else{
+                arr[i]=false;
+            }
+            sum=0;
+        }
+        System.out.print(Arrays.toString(arr));*/
+
+
+//  23. LUCKY NUMBERS
+/*
         int[][] matrix={{1,10,4,2},{9,3,8,7},{15,16,17,12}};
         int minval=0,index=0,max=0;
         for (int i = 0; i < matrix.length; i++) {
@@ -156,7 +184,9 @@ public class arrays {
 
 
 
-        }
+        }*/
+
+        
 
 
 
