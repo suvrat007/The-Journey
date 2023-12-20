@@ -3,25 +3,25 @@ import java.util.*;
 
 public class arrays {
     // for (int num : arr).....sout (num  + " ")
-            /*this will go on each element of array and print it*/
+    /*this will go on each element of array and print it*/
 
     // PRIMITIVES :- qntities that cn not be further broken down like boolean, int etc.
-                    //the are stored in stack
+    //the are stored in stack
     // OBJECTS :-
-                    // Stored in heap mem and accessed reference variable (arr[0]).
+    // Stored in heap mem and accessed reference variable (arr[0]).
 
     // int [][] arr=new int[3][] .......(rows is mandatory).......[array of arrays]
 
     // arr[rows][colums]
-                    // arr[rows].length
-                    // ENHANCED FOR LOOP for printing
-                            /* for (int a : arr){
-                            * sout (Arrays.toString(a))
-                            * }*/
+    // arr[rows].length
+    // ENHANCED FOR LOOP for printing
+    /* for (int a : arr){
+     * sout (Arrays.toString(a))
+     * }*/
     // ArrayList<integer> list = new Arraylist <>();
-                    // for arrays who u do not know the size
-                    // list.add() , list.set(index, towhat), list.remove(index), list.get(index)
-                    // arraylist does have a limit....but when limit is reached....new list created....old ones added to new....new elements add to new too
+    // for arrays who u do not know the size
+    // list.add() , list.set(index, towhat), list.remove(index), list.get(index)
+    // arraylist does have a limit....but when limit is reached....new list created....old ones added to new....new elements add to new too
 
     // CONVERT STRING TO ARRAY.........Arrays.toString(strvariablename.toCharArray())
 
@@ -34,9 +34,6 @@ public class arrays {
 //        for (int i = 0; i < arr.length; i++) {
 //            arr[i]=sc.nextInt();
 //        }
-
-
-
 
 
 // 2. WAP for concatenation
@@ -219,11 +216,85 @@ public class arrays {
         System.out.println(Arrays.toString(arr));*/
 
 
+//        String alpha = "qwertyuiopasdfghjklzxcvbnm";
+//        String arr= Arrays.toString(alpha.toCharArray());
+//        String word="thequickbrownfoxjumpsoverthelazydog";
+//        String check= Arrays.toString(alpha.toCharArray());
+//
+//        for (int i = 0; i < arr.length(); i++) {
+//            for (int j = 0; j < check.length(); j++) {
+//                if (arr[i]==check[j]){
+//
+//                }
+//
+//            }
+//
+//        }
+
+// PANGRAM (RETRY)
 
 
+//        String alpha = "qwertyuiopasdfghjklzxcvbnm";
+//        String word="thequickbrownfoxjumpsoverthelazydog";
+//        int ran=0;
+//
+//        for (int i = 0; i < word.length(); i++) {
+//            for (int j = 0; j < alpha.length(); j++) {
+//                if (word.charAt(i)==alpha.charAt(j)){
+//                    ran++;
+//                }
+//
+//            }
+//
+//        }
 
+// 11. Matching a rule
 
+//        String[][] items = {{"phone","blue","pixel"},{"computer","silver","phone"},{"phone","gold","iphone"}};
+//        String[] rule={"type","color","name"};
+//        String ruleKey = "type";
+//        String ruleValue = "phone";
+//        int sum=0;
+//        for (int i = 0; i < rule.length; i++) {
+//
+//            if (ruleKey==rule[i]){
+//                for (int j = 0; j < items.length; j++) {
+//                    if (items[j][i]==ruleValue){
+//                        sum++;
+//                    }
+//                }
+//            }
+//
+//        }
+//        if (sum==0){
+//            System.out.println("ITEM DOES NOT EXIST");
+//        }else{
+//            System.out.println(sum);
+//        }
 
+// 12. Altitude
+
+//        int[] gain = {-4,-3,-2,-1,4,3,2};
+//        int[] alt =new int[gain.length+1];
+//        int sum=0;
+//
+//        for (int i = 0; i < alt.length; i++) {
+//            if(i==0){ 
+//               alt[i]=0;
+//            }else{
+//                sum+=gain[i-1];
+//                alt[i]=sum;
+//            }
+//
+//        }
+//        int max=alt[1];
+//        for (int i = 0; i < alt.length; i++) {
+//            if(alt[i]>max){
+//                max=alt[i];
+//            }
+//        }
+//
+//        System.out.println(max);
 
 
 
@@ -231,10 +302,11 @@ public class arrays {
 
 
     }
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
