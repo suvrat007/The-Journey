@@ -231,8 +231,10 @@ public class arrays {
 //
 //        }
 
-// PANGRAM (RETRY)
+//10. PANGRAM (RETRY)
 
+
+//attempt 1
 
 //        String alpha = "qwertyuiopasdfghjklzxcvbnm";
 //        String word="thequickbrownfoxjumpsoverthelazydog";
@@ -247,6 +249,49 @@ public class arrays {
 //            }
 //
 //        }
+
+//attempt 2
+
+        ////            if (i==0){
+////                alpha[i]=sentence.charAt(i);
+////            }else{
+////                for (int j = 0; j <= i; j++) {
+////                    if (alpha[j]!=sentence.charAt(i)) {
+////                        alpha[i] = sentence.charAt(i);
+////                        break;
+////                    }
+////                }
+////            }
+////            System.out.print(alpha[i]);
+
+
+//attempt 3
+
+//        String sentence = "thequickbrownfoxjumpsoverthelazydog";
+//        boolean[] alpha= new boolean[26];
+//        boolean pangram=true;
+//
+//        for (int i = 0; i < sentence.length(); i++) {
+
+//            char ch=Character.toLowerCase(sentence.charAt(i));   // convert to lower case
+//            if (Character.isLetter(ch)){                         // check ki letter hai ki nahi
+//                alpha[ch-'a']=true;                              // mark wo index true....(a - a=0) , (b - a = 1) .....
+//            }
+//        }
+//        for (int i = 0; i < 26; i++) {
+//            if (alpha[i] != true) {
+//                pangram = false;
+//            }
+//
+//        }
+//
+//        if (pangram) {
+//            System.out.println("pangram");
+//        } else {
+//            System.out.println("not pangram");
+//        }
+
+
 
 // 11. Matching a rule
 
@@ -295,6 +340,8 @@ public class arrays {
 //        }
 //
 //        System.out.println(max);
+
+
 
 
 
