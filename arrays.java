@@ -368,6 +368,64 @@ public class arrays {
 //        }
 
 
+// 14. Cells with odd values..........(RETRY)
+
+//        int mrow=2;
+//        int ncol=2;
+//        int[][] indices = {{1,1},{0,0}};
+//        int[][] result= new int[mrow][ncol];
+//
+//        for (int row = 0; row < mrow; row++) {
+//            int incrow=indices[row][0];
+//            int incol=indices[row][1];
+//            for (int col = 0; col < ncol; col++) {
+//                result[row][col]=0;
+////                if(incrow==row){
+////                    result[incrow][col]++;
+////                }
+////                if (incol==col){
+////                    result[row][incol]++;
+////                }
+//                result[incrow][col]++;
+//                result[row][incol]++;
+//
+//            }
+//
+//        }
+//        for (int[] row : result) {                                              // NEW WAY TO PRINT 2D ARRAY
+//            System.out.println(Arrays.toString(row));}
+
+
+// 15. MATRIX DIAGONAL SUM
+
+//        int[][] mat = {{1,1,1,1},
+//                       {1,1,1,1},
+//                       {1,1,1,1},
+//                       {1,1,1,1}};
+//        int sum=0;
+//        for (int row = 0; row < mat.length; row++) {
+//            for (int col = 0; col < mat[row].length; col++) {
+//                if (row==col){
+//                    sum=sum+mat[row][col];
+//                }
+//            }
+//            for (int col = mat[row].length-1; col >=0 ; col--) {
+//                if (row==col){
+//                    sum=sum+mat[row][col];
+//                }
+//
+//            }
+//
+//        }
+//        if(mat.length%2!=0){
+//            System.out.println(sum-mat[((mat.length+1)/2)-1][((mat.length+1)/2)-1]);
+//        }else{
+//            System.out.println(sum);
+//        }
+
+
+
+
 
     }
 }
