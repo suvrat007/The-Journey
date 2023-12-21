@@ -342,9 +342,30 @@ public class arrays {
 //        System.out.println(max);
 
 
+// 13. FLIPPING AN ARRAY
 
 
-
+//        int[][] image = {{1,1,0,0},{1,0,0,1},{0,1,1,1},{1,0,1,0}};
+//        int[][] result= new int[image.length][image[0].length];
+//        int index=0;
+//
+//        for (int row = 0; row < image.length; row++) {
+//            for (int col = image[row].length-1; col >= 0; col--) {
+//                if (image[row][col]==0){
+//                    result[row][index]=1;
+//                    index++;
+//                }else{
+//                    result[row][index]=0;
+//                    index++;
+//                }
+//            }
+//        index=0;
+//
+//        }
+//
+//        for (int[] row : result) {                                              // NEW WAY TO PRINT 2D ARRAY
+//            System.out.println(Arrays.toString(row));
+//        }
 
 
 
