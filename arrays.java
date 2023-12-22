@@ -424,6 +424,42 @@ public class arrays {
 //        }
 
 
+// 16. EVEN NUMBER OF DIGITS
+
+//        int[] nums = {555,901,482,1771};
+//        int sum=0;
+//        int even=0;
+//        for (int i = 0; i < nums.length; i++) {
+//            int j=nums[i]; //pick kia
+//            while(j>0){  //no of digits aagaye
+//                j=j/10;
+//                sum++;
+//            }
+//            if(sum%2==0){
+//                even++;
+//            }
+//            sum=0;
+//
+//        }
+//        System.out.println(even);
+
+// 17. TRANSPOSE MATRIX
+
+
+//        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+//        int[][] result= new int[matrix[0].length][matrix.length];
+//        for (int row = 0; row < matrix.length; row++) {
+//            for (int col = 0; col < matrix[row].length; col++) {
+//                result[col][row]=matrix[row][col];
+//            }
+//        }
+//        for (int i = 0; i < result.length; i++) {
+//            System.out.println(Arrays.toString(result[i]));
+//        }
+
+
+
+
 
 
 
