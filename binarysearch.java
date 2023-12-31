@@ -3,7 +3,7 @@ public class binarysearch {
     public static void main(String[] args) {
 
 
-// 2. GAME QUESTION
+//  GAME QUESTION (easy wala)
 
 //        Scanner sc=new Scanner(System.in);
 //        System.out.print("ENTER THE RANGE OF THE GAME = ");
@@ -27,9 +27,9 @@ public class binarysearch {
 //            }
 
 //        }
-        
 
-// 3. BAD VERSION(easy)
+
+// 1. BAD VERSION(easy)
 
 
 //        Scanner sc=new Scanner(System.in);
@@ -69,52 +69,103 @@ public class binarysearch {
 //        }
 
 
-// 4. FIRST AND LAST POSITION (medium)
+// 2. FIRST AND LAST POSITION (medium)
 
 
-        int[] arr = {5,7,7,8,8,10};
-        int bad=8;
+//        int[] arr = {5,7,7,8,8,10};
+//        int bad=8;
+//
+//
+//        //searching
+//        int start=0;
+//        int end = arr.length -1;
+//        boolean check=false;
+//
+//        while(start<=end){
+////            int mid=start+(end-start)/2;
+//            int mid=0;
+//            if (end%2==0){
+//                mid=(end/2)+1;
+//            }else{
+//                mid=(end+1)/2;
+//            }
+//
+//            if(arr[mid]<bad) {
+//                start=mid+1;
+//            } else if (arr[mid]>bad) {
+//                end=mid-1;
+//            }else{
+//                for (int i = mid;i<end+1 ; i++) {
+//                    if (arr[i]==bad){
+//                        System.out.print(i+" ");
+//                    }
+//                }
+//                check=true;
+//                break;
+//            }
+//
+//
+//        }
+//        if (check==false){
+//            System.out.println(-1);
+//        }
 
 
-        //searching
-        int start=0;
-        int end = arr.length -1;
-        boolean check=false;
-
-        while(start<=end){
-//            int mid=start+(end-start)/2;
-            int mid=0;
-            if (end%2==0){
-                mid=(end/2)+1;
-            }else{
-                mid=(end+1)/2;
-            }
-
-            if(arr[mid]<bad) {
-                start=mid+1;
-            } else if (arr[mid]>bad) {
-                end=mid-1;
-            }else{
-                for (int i = mid;i<end+1 ; i++) {
-                    if (arr[i]==bad){
-                        System.out.print(i+" ");
-                    }
-                }
-                check=true;
-                break;
-            }
+// 3. TWO sum II
 
 
+//        int [] numbers = {-1,0};
+//        int [] ans=new int[2];
+//        int target=-1;
+//
+//        for (int i = 0; i < numbers.length; i++) {
+//            for (int j = 1; j < numbers.length; j++) {
+//
+//                if (numbers[i]!=numbers[j]){
+//                    if(numbers[i]+numbers[j]==target){
+//                        ans[0]= i+1;
+//                        ans[1]= j+1;
+//                    }
+//
+//                }
+//
+//            }
+//        }
+//        System.out.print(Arrays.toString(ans));
+
+
+        int[] num1={1,2,3,0,0,0};
+        int m=3;
+        int[] num2={2,5,6};
+        int n=3;
+
+        for (int i = m, j=0; i < num1.length && j< num2.length; i++,j++) {
+            num1[i]=num2[j];
         }
-        if (check==false){
-            System.out.println(-1);
+
+        // bubble sort
+//        for (int i = 1; i < num1.length; i++) {
+//            if(num1[i]<num1[i-1]){
+//                int temp=num1[i];
+//                num1[i]=num1[i-1];
+//                num1[i-1]=temp;
+//            }
+//        }
+//        System.out.println(Arrays.toString(num1));
+
+        // cyclic sort
+        int i=0;
+        while(i< num1.length){
+            int corct=num1[i]-1;
+            if(num1[i]!=corct){
+                int temp=num1[i];
+                num1[i]=num1[corct];
+                num1[corct]=temp;
+            }else{
+                i++;
+            }
         }
-
-
-
-
-
-
+        System.out.println(Arrays.toString(num1));
 
 
     }
