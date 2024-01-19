@@ -134,41 +134,41 @@ public class binarysearch {
 //        System.out.print(Arrays.toString(ans));
 
 
-        int[] num1={1,2,3,0,0,0};
-        int m=3;
-        int[] num2={2,5,6};
-        int n=3;
-
-        for (int i = m, j=0; i < num1.length && j< num2.length; i++,j++) {
-            num1[i]=num2[j];
-        }
-
-        // bubble sort
-//        for (int i = 1; i < num1.length; i++) {
-//            if(num1[i]<num1[i-1]){
+//        int[] num1={1,2,3,0,0,0};
+//        int m=3;
+//        int[] num2={2,5,6};
+//        int n=3;
+//
+//        for (int i = m, j=0; i < num1.length && j< num2.length; i++,j++) {
+//            num1[i]=num2[j];
+//        }
+//
+//        // bubble sort
+////        for (int i = 1; i < num1.length; i++) {
+////            if(num1[i]<num1[i-1]){
+////                int temp=num1[i];
+////                num1[i]=num1[i-1];
+////                num1[i-1]=temp;
+////            }
+////        }
+////        System.out.println(Arrays.toString(num1));
+//
+//        // cyclic sort
+//        int i=0;
+//        while(i< num1.length){
+//            int corct=num1[i]-1;
+//            if(num1[i]!=corct){
 //                int temp=num1[i];
-//                num1[i]=num1[i-1];
-//                num1[i-1]=temp;
+//                num1[i]=num1[corct];
+//                num1[corct]=temp;
+//            }else{
+//                i++;
 //            }
 //        }
 //        System.out.println(Arrays.toString(num1));
-
-        // cyclic sort
-        int i=0;
-        while(i< num1.length){
-            int corct=num1[i]-1;
-            if(num1[i]!=corct){
-                int temp=num1[i];
-                num1[i]=num1[corct];
-                num1[corct]=temp;
-            }else{
-                i++;
-            }
-        }
-        System.out.println(Arrays.toString(num1));
-
-
-    }
+//
+//
+//    }
 //    static void badversion(int range,int bad, int start, int end){
 //        //create array
 //        int[] arr=createarr(range);
@@ -206,4 +206,4 @@ public class binarysearch {
 //        return sample;
 //
 //    }
-}
+    }}
