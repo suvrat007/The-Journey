@@ -1,7 +1,7 @@
 public class patterns {
     public static void main(String[] args) {
         int num=5;
-        p12(num);
+        p14(num);
 
     }
     static void p2(int n){
@@ -78,6 +78,30 @@ public class patterns {
                 System.out.print("* ");
             }
             System.out.println("");
+        }
+    }
+    static void p14(int n){
+        for (int row = 1; row <= n; row++) {
+            if (row==1){
+                for (int clm = 1; clm <= (2*n)-1; clm++) {
+                    System.out.print("*");
+                }
+            }else{
+                for (int clm = 1; clm <=row-1 ; clm++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                for (int clm = ((2*n)-1)-(2*row); clm >=1; clm--) {
+                    System.out.print(" ");
+                }
+                if(row!=n){
+                    System.out.print("*");
+                }
+
+
+            }
+            System.out.println("");
+
         }
     }
 }
