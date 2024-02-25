@@ -1,6 +1,6 @@
 public class subset {
     public static void main(String[] args) {
-        subascii("","abc");
+//        prmtations("","abc");
 
     }
     static void skip(String p, String up){
@@ -69,4 +69,7 @@ public class subset {
         subascii(p+ (ch+0), up.substring(1));
 
     }
+
+
+
 }
