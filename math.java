@@ -3,10 +3,10 @@ import java.util.*;
 
 public class math {
     public static void main(String[] args) {
-//        String s="IX";
-//        System.out.println(romanToInt(s));
+        String s="IX";
+        System.out.println(romanToInt(s));
 //        int n=4;
-        System.out.println('AA'-'A');
+//        System.out.println('AA'-'A');
     }
     static int romanToInt(String num){
         int sum=0;
