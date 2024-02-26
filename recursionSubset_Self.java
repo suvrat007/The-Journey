@@ -1,9 +1,13 @@
 import org.w3c.dom.ls.LSOutput;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class recursionSubset_Self {
     public static void main(String[] args) {
 //        System.out.println(skip_apple("bacapplecadah"));
-        System.out.println(prmtations("","abcd"));
+//        System.out.println(prmtations_arrlist("","abc"));
+        nokia("","23");
     }
 
 
@@ -56,7 +60,57 @@ public class recursionSubset_Self {
         System.out.println(n);
     }
 
+    static ArrayList<String> prmtations_arrlist(String p ,String up){
 
+        ArrayList<String> arr=new ArrayList<>();
+        if (up.isEmpty()){
+            arr.add(p);
+            return arr;
+        }
+
+        char ch = up.charAt(0);
+        ArrayList<String> ans=new ArrayList<>();
+
+        for (int i = 0; i <= p.length() ; i++) {
+            ans.addAll(prmtations_arrlist(p.substring(0,i)+ch+p.substring(i,p.length()),up.substring(1)));
+        }
+        return ans;
+    }
+    static void nokia(String p, String up){
+        if (up.isEmpty()){
+            System.out.println(p);
+            return;
+        }
+
+        int ch= up.charAt(0) - '0';          // CONVERTS '2' TO 2
+
+        if (ch>=2 && ch<=6){
+            for (int i = 3*(ch-2); i < 3*(ch-1); i++) {
+
+                nokia(p+(char)('a'+i),up.substring(1));
+            }
+        }else if (ch==7){
+            for (int i = 15; i < 19; i++) {
+                nokia(p+(char)('a'+i),up.substring(1));
+            }
+        } else if (ch==8) {
+            for (int i = 19; i < 22; i++) {
+                nokia(p+(char)('a'+i),up.substring(1));
+
+            }
+        } else if (ch==9) {
+            for (int i = 22; i < 26; i++) {
+                nokia(p +(char) ('a' + i), up.substring(1));
+
+            }
+        } else {
+            nokia(p + '0', up.substring(1));
+        }
+
+
+
+
+    }
 
 
 }
