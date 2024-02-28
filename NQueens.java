@@ -3,7 +3,7 @@ public class NQueens {
     public static void main(String[] args) {
         int n=4;
         boolean[][] board=new boolean[n][n];
-        System.out.println(queens(board,0));
+        System.out.println(Queen_meri(board,0));
 
     }
     static int queens(boolean[][] board, int row){
@@ -60,6 +60,66 @@ public class NQueens {
             if (board[row-i][col+i]){
                 return false;
             }
+        }
+        return true;
+    }
+
+
+    // KHUDSE
+
+    static int Queen_meri(boolean[][] game,int r){
+        if (r==game.length){
+            show(game);
+            System.out.println();
+            return 1;
+        }
+        int sum=0;
+
+        for (int c = 0; c < game.length; c++) {
+            if (safe(game,r,c)){
+                game[r][c]=true;
+                sum+=Queen_meri(game,r+1);
+                game[r][c]=false;
+            }
+        }
+        return sum;
+    }
+
+    private static void show(boolean[][] game) {
+        for (boolean[] bool:game){
+            for (boolean ele:bool){
+                if(ele){
+                    System.out.print("Q ");
+                }else{
+                    System.out.print("X ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    private static boolean safe(boolean[][] game, int r, int c) {
+        //check upar
+        for (int i = 0; i < r; i++) {
+            if(game[i][c]){
+                return false;
+            }
+        }
+        //check left dia
+        int left=Math.min(r,c);
+        for (int i = 0; i <= left ; i++) {
+            if(game[r-i][c-i]){
+                return false;
+            }
+        }
+
+        //check right dia
+        int right=Math.min(r, game.length-1-c);
+        for (int i = 0; i <=right ; i++) {
+            if (game[r-i][c+i]){
+                return false;
+            }
+
         }
         return true;
     }
