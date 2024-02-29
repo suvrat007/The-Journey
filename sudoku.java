@@ -10,8 +10,8 @@ public class sudoku {
         {0, 0, 0, 4, 1, 9, 0, 0, 5},
         {0, 0, 0, 0, 8, 0, 0, 7, 9}};
 
-        if (solve(board)){
-            display(board);
+        if (solver(board)){
+            show(board);
         }else{
             System.out.println("no");
         }
@@ -101,6 +101,87 @@ public class sudoku {
 
 
     }
+
+
+    static boolean solver(int[][] board){
+        int n=board.length;
+        int col= -1;
+        int row = -1;
+        boolean isempty=true;
+
+        for (int r= 0; r <n ; r++) {
+            for (int c = 0; c < n; c++) {
+                if (board[r][c]==0){
+                    isempty=false;
+                    row=r;
+                    col=c;
+                    break;
+                }
+            }
+            if(isempty==false){
+                break;
+            }
+
+        }
+        if (isempty == true) {
+            return true;
+        }
+
+        for (int i = 1; i <= board.length; i++) {
+            if (safe(board,row,col,i)){
+                board[row][col]=i;
+                if (solver(board)) {
+                    return true;
+                }else{
+                    board[row][col]=0;
+                }
+            }
+
+        }
+        return false;
+    }
+
+    static void show(int[][]board){
+        for (int[] row:board){
+            for (int ele:row){
+                System.out.print(ele+" ");
+            }
+            System.out.println();
+        }
+
+    }
+    static boolean safe(int[][] board, int r, int c, int num){
+        //check row
+        for (int i = 0; i < board.length; i++) {
+            if(board[r][i]==num){
+                return false;
+            }
+
+        }
+
+        //check col
+        for (int i = 0; i < board.length; i++) {
+            if(board[i][c]==num){
+                return false;
+            }
+        }
+
+        //check box
+        int sqrt=(int)(Math.sqrt(board.length));
+        int startrow=r-r%sqrt;
+        int startcol=c-c%sqrt;
+        for (int i = startrow; i < startrow+sqrt; i++) {
+            for (int j = startcol; j < startcol+sqrt; j++) {
+                if (board[i][j]==num){
+                    return false;
+                }
+            }
+
+        }
+        return true;
+
+    }
+
 
 }
 
