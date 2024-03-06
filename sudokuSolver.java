@@ -17,12 +17,13 @@ public class sudokuSolver {
         }
     }
     static boolean solve(int[][] board){
+        int n= board.length;
         int col= -1;
         int row= -1;
         boolean emptySpace=false;
 
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board.length; j++) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
                 if(board[i][j]==0){
                     row=i;
                     col=j;
@@ -35,8 +36,11 @@ public class sudokuSolver {
             }
 
         }
+        if (emptySpace==false){
+            return true;
+        }
 
-        for (int i = 1; i <= board.length; i++) {
+        for (int i = 1; i <= n; i++) {
             if (isSafe(board,row,col,i)){
                 board[row][col]=i;
                 if(solve(board)){
@@ -46,9 +50,7 @@ public class sudokuSolver {
                 }
             }
         }
-        if (emptySpace==false){
-            return true;
-        }
+
         return false;
     }
     static void display(int[][] board){
@@ -79,8 +81,8 @@ public class sudokuSolver {
 
         //check box
         int sqrt=(int)(Math.sqrt(board.length));
-        int starRow=row-row%sqrt;
-        int startCol=col-col%sqrt;
+        int starRow = row - row % sqrt;
+        int startCol= col - col % sqrt;
 
         for (int i = starRow; i <starRow+sqrt ; i++) {
             for (int j = startCol; j < startCol+sqrt; j++) {
