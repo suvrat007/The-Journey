@@ -1,7 +1,9 @@
+package assignments;
+
 import java.util.*;
 public class functions {
 
-    // to pass arrays to a function use [(data type)...v]
+    // to pass assignments.arrays to a function use [(data type)...v]
     // make sure the above thing is in the last of the arguments
     
     public static void main(String[] args) {
@@ -107,7 +109,7 @@ public class functions {
         }
     }
     static void pyth(){
-        //to take arrays as input parameter....
+        //to take assignments.arrays as input parameter....
         Scanner sc=new Scanner(System.in);
         System.out.print("enter total number of num u wanna enter : ");
         int lim=sc.nextInt();

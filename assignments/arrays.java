@@ -1,3 +1,5 @@
+package assignments;
+
 import java.util.ArrayList;
 import java.util.*;
 
@@ -10,7 +12,7 @@ public class arrays {
     // OBJECTS :-
     // Stored in heap mem and accessed reference variable (arr[0]).
 
-    // int [][] arr=new int[3][] .......(rows is mandatory).......[array of arrays]
+    // int [][] arr=new int[3][] .......(rows is mandatory).......[array of assignments.arrays]
 
     // arr[rows][colums]
     // arr[rows].length
@@ -19,7 +21,7 @@ public class arrays {
      * sout (Arrays.toString(a))
      * }*/
     // ArrayList<integer> list = new Arraylist <>();
-    // for arrays who u do not know the size
+    // for assignments.arrays who u do not know the size
     // list.add() , list.set(index, towhat), list.remove(index), list.get(index)
     // arraylist does have a limit....but when limit is reached....new list created....old ones added to new....new elements add to new too
 

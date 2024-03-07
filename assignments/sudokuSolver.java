@@ -1,3 +1,5 @@
+package assignments;
+
 public class sudokuSolver {
     public static void main(String[] args) {
         int[][] board=new int[][]{{5, 3, 0, 0, 7, 0, 0, 0, 0},
