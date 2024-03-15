@@ -1,4 +1,4 @@
-package OOPS;
+package OOPs.video1;
 
 class Student{
     String name;
@@ -22,7 +22,7 @@ class Student{
 
     }
 
-//Function overload.....function name same ho akte hai par arguments alag hone
+//Function overload.....function name same ho sakte hai par arguments alag hone
     public void std(String name){
         System.out.println(name);
     }
