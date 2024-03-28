@@ -1,0 +1,28 @@
+
+h1{
+    color: blueviolet;
+    background-color:black;
+    font-size: 20px;
+    text-decoration: line-through;
+    text-align: center;
+}
+p{
+    color: blue;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 2;
+    column-gap: 40px;
+}
+ul{
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: red;*/
+    border: 4px solid crimson;
+    border-left: 2px dashed orange;
+}
+li{
+    list-style-type: lower-alpha;
+    text-shadow: 2px 2px #afddec;
+}
+ 
