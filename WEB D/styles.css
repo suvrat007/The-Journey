@@ -25,4 +25,36 @@ li{
     list-style-type: lower-alpha;
     text-shadow: 2px 2px #afddec;
 }
+
+.error{                                /*kissi bhi type ki class ko iss naam se directly edit karsakte hai*/
+    color: red;
+}
  
+div.error{                             /*agar class div type hai hai ya p type hai toh specify kardo*/
+    color: pink;                     /*div.error and div .error alag hai....doosra mei div mei koi bhi class with error and doosra dic ka error clas hona chahiye */
+}
+
+.dick{                                 
+    color: brown;
+    border: 5px dotted yellow;
+}
+
+#cutie{                                /*id ka call*/
+    background-color: black;
+    padding: 40px;
+    color: white;
+}
+
+div p{                                 /*dic type ke andar jitne p hai usko control kar sakte hai alagse*/
+    background-color: aqua;
+}
+
+/*a [href="koi bhi link"].....will colour link in a type
+if href*....koi bhi part of link can be put and colour the whole link
+if href$....end mei maanlo mail ka .com kia hai toh jitne bhi .coms honge 'a' ke andar sa color honge*/
+
+/* if  we put koi bhi stye in div.....it will get implemented in everthing under it ( INHERITANCE ) parent to child
+par agar child mei parent ki property chahiye toh child mei likho..
+(jo style karna hai....like border) : inherit 
+
+child can edit inherited value of any design */
