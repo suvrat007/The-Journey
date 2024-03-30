@@ -1,0 +1,44 @@
+header{
+   /* position: relative;
+    left: 100px;
+    top: 50px;*/
+    background-color: rgb(40, 188, 196);
+    padding: 7px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;                       /*varna poora wisth cover hoga bcoz block element hai*/
+    border-radius: 25px;
+}
+
+.banner{
+    position: relative;
+    
+}
+.banner img{
+    max-width: 100% ;
+}
+.banner .welcome{
+    position: absolute;      /*we lose the position it was already in it gets fixed in a position
+                              others can overlap it*/
+    left: 62%;
+    top: 5%;                 /* if we use px....psotion gets fixed there.....if use % the positions will be relative */
+    color: white;
+}
+.banner h2{
+    font-size: 25px;
+}
+.banner span{
+    font-size: 1.75em;        /* 1.5em means size will increase by 1.5 tymes compared to the baaki ka text*/
+}
