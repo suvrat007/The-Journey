@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DSA/Revision/FindMissingAllNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Revision/FindMissingNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Revision/RecursionRev/Pnc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Revision/RecursionRev/RemovingAlphabets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Revision/revSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NQueens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nknights.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/OOPS in Java.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video1/OOPS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video1/functOver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/Brake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/ElectricEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/Media.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/NiceCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/car/PowerEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/family/Daughter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/family/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/family/Son.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video5/family/parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/video6/CustomArrayList/CustomArraylist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WAGMI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WAGMI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB D/PROJECTS/product-preview-card-component-main/product-preview-card-component-main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB D/PROJECTS/product-preview-card-component-main/product-preview-card-component-main/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/binarysearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/conditionals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/firstjava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/flowcharts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/functions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/math.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/mergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/patterns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/recursionSubset_Self.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/sudokuSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/patterns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudoku.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2el5xbEZJZa7sw170U8PWoUKXvw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="revSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Revision.revSorting" />
+      <module name="WAGMI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Revision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.revSorting" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="" />
+      <created>1712466574768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712466574768</updated>
+      <workItem from="1712466576828" duration="11000" />
+      <workItem from="1712830023165" duration="4000" />
+      <workItem from="1713177278880" duration="15853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

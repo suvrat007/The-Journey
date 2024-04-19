@@ -1,0 +1,31 @@
+
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: rgb(238, 236, 215);
+
+}
+.result {
+    font-family: "Hanken Grotesk", sans-serif;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    font-size: 18px;
+}
+#score{
+    font-size: 46px;
+    position: fixed;
+    top: 37%;
+    left: 32%;    
+}
+#total{
+    font-size: 14px;
+    position: fixed;
+    top: 46%;
+    left: 32.7%;
+}
+#comment{
+    font-size: 18px;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}

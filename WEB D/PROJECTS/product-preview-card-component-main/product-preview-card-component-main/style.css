@@ -78,3 +78,18 @@ a{
     font-family: "Montserrat", sans-serif;
 
 }
+
+/* CSS for smartphones */
+@media only screen and (max-width: 760px) {
+    
+    .prodPic {
+        display: block;
+        width: 1000px;
+        top: 0%;
+    }
+    .white{
+        max-width: 100px;
+        
+        border-top-right-radius: 10px;
+    }
+  }
