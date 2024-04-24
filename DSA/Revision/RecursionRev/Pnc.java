@@ -20,10 +20,10 @@ public class Pnc {
         non.addAll(incl);
         return non;
     }
-    static String permutations(String p , String up){
-        if (up.isEmpty()){
-            return p;
-        }
-        
-    }
+//    static String permutations(String p , String up){
+//        if (up.isEmpty()){
+//            return p;
+//        }
+//
+//    }
 }
