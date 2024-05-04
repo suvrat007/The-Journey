@@ -1,23 +1,35 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', se;
 }
 .container{
-    background-color: aqua; 
-    margin: 0;
-        
+    background-color:#23424A;
+    color: white;
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 75%;
 }
-.text {
-    font-size:30px;
+.text{
     width: 50%;
-    /* max-width: 50%; */
-    padding: 20px 150px ;
 }
-.content{
-    font-size: 0.5em;
+.head{
+    font-size: 48px;
 }
-.more_text{
-    margin: 0;
-    padding: 20px 150px;
+.content .button{
+    font-size: 21px;
+}
+.button{
+    
+    background-color: #38CFD9;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 21px;    
+}
+.button:hover{
+    background-color: red;
+    
 }
 
