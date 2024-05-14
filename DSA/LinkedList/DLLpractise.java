@@ -43,5 +43,5 @@ public class DLLpractise {
         tail=node;
         size++;
     }
-    private void
+
 }
