@@ -88,6 +88,62 @@ public class LL {
         size+=1;
     }
 
+//    ye part samajhna padega firse
+
+    public void insertRec(int val, int index){
+        head=insertRec(val, index, head);
+    }
+    private Node insertRec(int val, int index, Node node){
+        if(val==0){
+            Node temp=new Node(val,node);
+            size++;
+            return temp;
+        }
+        node.next=insertRec(val,index--,node.next);
+        return node;
+    }
+
+
+    // questions
+    public void dupilcates(){
+        Node node = head;
+        while (node.next!=null){
+            if (node.next.val==node.val){
+                node.next=node.next.next;
+                size--;
+            }else {
+                node=node.next;
+            }
+        }
+        tail=node;
+        tail.next=null;
+    }
+
+    public static LL merge(LL first, LL second){
+        LL ans =new LL();
+
+        Node f= first.head;
+        Node s= second.head;
+
+        while(f!=null && s!= null){
+            if (f.val<s.val){
+                ans.insertLast(f.val);
+                f=f.next;
+            }else{
+                ans.insertLast(s.val);
+                s=s.next;
+            }
+        }
+        while (f!=null){
+            ans.insertLast(f.val);
+            f=f.next;
+        }
+        while (s!=null){
+            ans.insertLast(f.val);
+            s=s.next;
+        }
+        return ans;
+    }
 
 
     public static void main(String[] args) {
