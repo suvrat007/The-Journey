@@ -145,6 +145,96 @@ public class LL {
         return ans;
     }
 
+    public boolean cycle(Node head){
+        Node slow=head;
+        Node fast=head;
+
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+            if (fast==slow){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int cycleLen(Node head) {
+        Node slow=head;
+        Node fast=head;
+
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+            if (fast==slow){
+                // cal length
+                int len=0;
+                Node temp=slow;
+                do{
+                   temp=temp.next;
+                   len++;
+                }while (temp!=slow);
+                return len;
+            }
+        }
+        return 0;
+    }
+
+    public Node detectCycle(Node head) {
+        Node slow=head;
+        Node fast=head;
+        int length =0;
+
+        while(fast!=null && fast.next!=null){
+            fast=fast.next.next;
+            slow=slow.next;
+            if (fast==slow){
+                length=cycleLen(slow);
+                break;
+            }
+        }
+        if (length==0){
+            return null;
+        }
+        // find start
+        Node f= head;
+        Node s=head;
+        while(length>0){
+            s=s.next;
+            length--;
+        }
+        //move both ahead. i.e f and s and they will meet at start
+        while(f!=s){
+            f=f.next;
+            s=s.next;
+        }
+        return s;   // can return any of the ones
+    }
+
+    public boolean isHappy(int n){
+        int slow=n;
+        int fast=n;
+
+        do {
+            slow=findSquare(slow);
+            fast=findSquare(findSquare(fast));
+        }while (fast!=slow);
+
+        if (slow==1){
+            return true;
+        }
+        return false;
+    }
+    private int findSquare(int num){
+        int ans=0;
+        while(num>0){
+            int rem=num%10;
+            ans+=rem*rem;
+            num=num/10;
+        }
+        return ans;
+    }
+
 
     public static void main(String[] args) {
         LL list=new LL();
