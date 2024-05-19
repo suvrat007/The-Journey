@@ -1,66 +1,139 @@
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', se;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
 .container{
     background-color:#23424A;
     color: white;
     padding: 50px;
-    margin: 0 auto;
-    max-width: 75%;
+
 }
+.start-content{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    /* width: 0 auto; */
+    /* border: red solid; */
+    /* max-width: 75%; */
+    gap: 10%;
+}
+
 .text{
-    max-width: 75%;
-    
-    width: 50%;
+    max-width: 50%;
+    justify-content: flex-start;
+
 }
 .head{
     font-size: 48px;
 }
-.content .button{
+.content {
     font-size: 21px;
 }
 .button{
-    
     background-color: #38CFD9;
     color: black;
-    text-align: center;
+    /* text-align: center; */
+    justify-content: flex-end;
     padding: 10px 20px;
-    width: fit-content;
+    max-width: 75%;
+    width: 50%;
     border-radius: 20px;
     text-decoration: none;
-    font-size: 21px;    
+    font-size: 21px;  
+    /* margin-top: 20%;   */
 }
 .button:hover{
     background-color: red;
-    
 }
-.container-2{
+.pic {
+    max-width: 100%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+}
+.main-container{
     margin: 0 auto;
     max-width: 75%;
-    
-    /* width: 80%; */
 }
-.text2{
+.row{
     display: flex;
-    flex-direction: row;
-    
-    /* gap: 40px; */
-    text-align: center;
-    gap: 10px;
-    padding: 3em;    
+    justify-content: space-between;
 }
-.container-3{
-    background-color: #136C72;
+.sidebar{
+    width: 32%;
+    background-color: #136c72;
     color: white;
-    margin: 0 auto;
-    width: 80%;
-
-    /* max-width: 75%; */
-}
-.text3{
-    display: flex;
     text-align: center;
-    gap: 10px;
-    padding: 3em;
-
+    padding: 1.5em;
 }
+.primary-content{
+    width: 62%;
+}
+.main{
+    margin-top: 3em;
+}
+
+header{
+    padding-top: 1em 0 ; 
+    background-color: #136c72;
+    font-size: 1.2em;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav-button{
+    padding: 5px 15px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    
+}
+.nav-list{
+    margin: 0 ;
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    /* border: red solid; */
+    /* justify-content: space-between; */
+
+
+    /* padding-left: 50px; */
+}
+.nav-item+ .nav-item{
+    margin-left: 0.5em;    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 75%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* border: black solid; */
+}
+
+.logo{
+    /* border: yellow solid; */
+    margin-right: 1em;
+}
+
+.primary{
+    /* border: red solid; */
+    margin: 0 auto;
+}
+
+
+
