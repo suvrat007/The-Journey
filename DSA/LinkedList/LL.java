@@ -235,6 +235,118 @@ public class LL {
         return ans;
     }
 
+    public Node middleNode(Node head) {
+        Node f = head;
+        Node s = head;
+        while(f!=null && f.next!=null) {
+            f = f.next.next;
+            s = s.next;
+        }
+        return s;
+
+    }
+
+    public Node sortList(Node head) {
+        // bubble sort
+//        Node f= head;
+//        Node s= head;
+//        while(f!=null){
+//            if (s==null){
+//                s=head;
+//                f=head;
+//            }
+//            f=f.next;
+//            if(f.val<s.val){
+//                int temp = s.val;
+//                s.val=f.val;
+//                f.val=temp;
+//                s=s.next;
+//            }else{
+//                s=s.next;
+//            }
+//
+//        }
+//        return head;
+        if (head==null){
+            return null;
+        }
+
+        boolean swap= false;
+
+    }
+
+    // LL REVERSAL USING RECURSION         *******
+    public void reverseRec(Node node){
+        if (node== tail){
+            tail=head;
+            return;
+        }
+        reverseRec(node.next);
+        tail.next=node;
+        node=tail;
+        tail.next=null;
+    }
+
+    // LL IN PLACE REVERSAL
+
+    public Node reverseList(Node head) {
+        if (size<2){
+            return head;
+        }
+        Node prev=null;
+        Node pres=head;
+        Node nex= pres.next;
+        while (pres!=null){
+            pres.next=prev;
+            prev=pres;
+            pres=nex;
+            if (nex!=null){
+                nex=nex.next;
+            }
+        }
+        prev=head;
+        return head;
+
+    }
+
+    // LL PART REFERSAL
+    public Node reverseBetween(Node node, int left, int right) {
+        if (left==right){
+            return node;
+        }
+
+        //skip left-1 terms nodes
+        Node current = head;
+        Node previous = null;
+
+        for (int i = 0;current !=null && i < left-1; i++) {
+            previous=current;
+            current=current.next;
+        }
+
+        Node last=previous;
+        Node newEnd=current;
+
+        // reverse btw left and right
+
+        Node next = current.next;
+        for (int i = 0; current!=null && i < right-left+1 ; i++) {
+            current.next=previous;
+            previous=current;
+            current=next;
+            if (next!=null){
+                next=next.next;
+            }
+        }
+        if (last!=null){
+            last.next=previous;
+        }else {
+            head=previous;
+        }
+
+        newEnd.next=current;
+        return node;
+    }
 
     public static void main(String[] args) {
         LL list=new LL();
