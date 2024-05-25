@@ -290,7 +290,7 @@ public class LL {
     // LL IN PLACE REVERSAL
 
     public Node reverseList(Node head) {
-        if (size<2){
+        if (head==null){
             return head;
         }
         Node prev=null;
@@ -304,8 +304,7 @@ public class LL {
                 nex=nex.next;
             }
         }
-        prev=head;
-        return head;
+        return prev;
 
     }
 
@@ -346,6 +345,25 @@ public class LL {
 
         newEnd.next=current;
         return node;
+    }
+
+    public boolean isPalindrome(Node head) {
+        Node mid=middleNode(head);
+        Node headSecond=reverseList(mid);
+        Node rereverseHead= headSecond;
+
+        while (head!=null && headSecond!=null ){
+            if (head.val != headSecond.val){
+                break;
+            }
+            head=head.next;
+            headSecond=headSecond.next;
+        }
+        reverseList(rereverseHead);
+        if (head==null || headSecond==null){
+            return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
