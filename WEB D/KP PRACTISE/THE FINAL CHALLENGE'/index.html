@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="logo.svg" alt="CRL logo">
+        <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+        </button>
+        <img src="logo.svg" alt="CRL logo" class="logo">
         <nav class="nav">
             <ul class="nav_list--primary">
                 <li class="nav-item"><a href="#" class="nav-link">home</a></li>
@@ -22,21 +29,29 @@
     
     <section class="Intro">
         <div class="section1--text">
-            <h1 class="main-heading">Responsive layouts dont have to a struggle</h1>
-            <p class="intro-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio vel placeat eos ea quis. Quas aut, perspiciatis consequuntur officia ex quia dolor labore suscipit perferendis ea et. Consequuntur, possimus. Labore, dolores repudiandae! Provident inventore officia atque maxime temporibus deserunt incidunt, quidem dolor reprehenderit adipisci repudiandae. Magni, quisquam. Voluptatum, distinctio architecto!</p>
-            <button class="learn-button">I WANT TO LEARN</button>
+            <div class="intro-left">
+                <h1 class="main-heading">Responsive layouts <span style="color: #A59678;">dont have to a be struggle </span></h1>
+            </div>
+            <div class="intro-right">
+                <p class="intro-para">Lorem Consequuntur, possimus. Labore, dolores repudiandae! Provident inventore officia atque maxime temporibus deserunt incidunt, quidem dolor reprehenderit adipisci repudiandae. Magni, quisquam. Voluptatum, distinctio architecto!</p>
+                <button class="learn-button">I WANT TO LEARN</button>
+            </div>
         </div>
     </section>
-    <section class="Content info">
+    <section class="content-info">
         <div class="section2--text">
-            <h2 class="mobile-first">Moblie-first</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis pariatur eveniet, in tempore alias nulla nemo repellat molestiae rem similique odio. At amet aliquam culpa sit, iusto repudiandae perferendis fugit!</p>
-
-            <h2 class="efficient">efficient</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum quia ullam explicabo, perferendis ab quod sed asperiores delectus numquam rerum recusandae doloremque ipsam aliquam, placeat odit eligendi ut quibusdam rem?</p>
-
-            <h2 class="done-right">Done-Right</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, atque exercitationem quae quod officia dolore numquam quas deserunt veniam laborum perferendis animi laudantium adipisci dolorem culpa, similique illo doloremque reprehenderit?</p>
+            <div class="mid">
+                <h2 class="mobile-first" style="color: #A59678;">Moblie-first</h2>
+                <p style="font-family: Montserrat, sans-serif">Lorem ipsum dolor sit, nemo repellat molestiae rem similique odio. At amet aliquam culpa sit, iusto repudiandae perferendis fugit!</p>
+            </div>
+            <div class="mid">
+                <h2 class="efficient" style="color: #A59678;">Efficient</h2>
+                <p style="font-family: Montserrat, sans-serif">Lorem ipsum dolor sit, delectus numquam rerum recusandae doloremque ipsam aliquam, placeat odit eligendi ut quibusdam rem?</p>
+            </div>
+            <div class="mid">
+                <h2 class="done-right" style="color: #A59678;">Done-Right</h2>
+                <p style="font-family: Montserrat, sans-serif">Lorem ipsum dolor sit, perferendis animi laudantium adipisci dolorem culpa, similique illo doloremque reprehenderit?</p>
+            </div>
         </div>
     </section>
     <section>
@@ -49,45 +64,53 @@
             </div>
             <div class="right">
                 <div class="box">
-                    <h3>Break it down</h3>
+                    <h3 class="mid-right-head">Break it down</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dignissimos sequi rerum sapiente! Voluptatem laboriosam, deserunt quod iste quam iusto!</p>
                 </div>
                 <div class="box">
-                    <h3>Work your way up</h3>
+                    <h3 class="mid-right-head">Work your way up</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dignissimos sequi rerum sapiente! Voluptatem laboriosam, deserunt quod iste quam iusto!</p>
                 </div>
-                <div class="box">
-                    <h3>Kuch toh</h3>
+                <div class="box" >
+                    <h3 class="mid-right-head">Kuch toh</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dignissimos sequi rerum sapiente! Voluptatem laboriosam, deserunt quod iste quam iusto!</p>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-        <h2 class="bottonliner">Just scratching the surface</h2>
-        <div class="about-para">
-            <h3>About our company</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur iste laudantium quis illum dolor facere eos vero ipsa, inventore cupiditate ea deserunt, sed qui eius voluptas tempora culpa quaerat consequatur?</p>
-        </div>
-        <div class="contacts">
-            <ul class="getting-around">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-            <ul class="Other-Things">
-                <li>Randonm</li>
-                <li>Stuff</li>
-                <li>Writtem</li>
-                <li>Here</li>
-            </ul>
-            <ul class="and-more">
-                <li>Thick</li>
-                <li>Big</li>
-                <li>Curved</li>
-                <li>Cute</li>
-            </ul>
+        <div class="last-section">
+            <h2 class="bottomliner" style="text-align: center;">Just scratching the surface</h2>
+            <div class="bottom-text">
+                <div class="about-para">
+                    <h3 style="font-family: Oswald, sans-serif" class="about">About our company</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur iste laudantium quis illum dolor facere eos vero ipsa, inventore cupiditate ea deserunt, sed qui eius voluptas tempora culpa quaerat consequatur?</p>
+                </div>
+                <div class="contacts" >
+                    <ul class="getting-around list">
+                        <h3 class="about-heading">Getting Around</h3>
+                        <li class="list-item">Home</li>
+                        <li class="list-item">About</li>
+                        <li class="list-item">Contact</li>
+                    </ul>
+                    <ul class="Other-Things list">
+                        <h3 class="about-heading">Other Things</h3>                
+                        <li class="list-item">Randonm</li>
+                        <li class="list-item">Stuff</li>
+                        <li class="list-item">Writtem</li>
+                        <li class="list-item">Here</li>
+                    </ul>
+                    <ul class="and-more list">
+                        <h3 class="about-heading">And More</h3>
+                        <li class="list-item">Thick</li>
+                        <li class="list-item">Big</li>
+                        <li class="list-item">Curved</li>
+                        <li class="list-item">Cute</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
