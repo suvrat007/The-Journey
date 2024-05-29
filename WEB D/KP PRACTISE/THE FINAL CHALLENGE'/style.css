@@ -290,5 +290,37 @@ footer{
     .list{
         margin: 0;
     }
+    header{
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+    }
+
+    .nav-toggle{
+        display: none;
+    }
+    .intro-nav{
+        display: flex;
+        margin: 0 auto;
+        width: 85%;
+        /* border: red solid; */
+        justify-content: space-between;
+    }
+    .nav_list--primary{
+        display: flex;
+        margin-right: 0;
+        /* border: red solid; */
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .signup{
+        background-color: #ffffff;
+        color: #2E323F;
+        border-radius: 100px;
+        padding: .2em .5em;
+    }
+    
+    
 
 }
