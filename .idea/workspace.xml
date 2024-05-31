@@ -5,50 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSA/LinkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/LinkedList/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/NQueens.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Nknights.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/OOPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/OOPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/functOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/functOver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/pen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video1/pen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Brake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Brake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/CD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/CD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/ElectricEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/ElectricEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Media.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/Media.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/NiceCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/NiceCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/PowerEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/car/PowerEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/Daughter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/Daughter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/Son.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/Son.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video5/family/parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video6/CustomArrayList/CustomArraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/OOPs/video6/CustomArrayList/CustomArraylist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Revision/FindMissingAllNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Revision/FindMissingAllNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Revision/FindMissingNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Revision/FindMissingNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Revision/RecursionRev/Pnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Revision/RecursionRev/Pnc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Revision/RecursionRev/RemovingAlphabets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Revision/RecursionRev/RemovingAlphabets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Revision/revSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Revision/revSorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/arrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/binarysearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/binarysearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/conditionals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/conditionals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/firstjava.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/firstjava.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/flowcharts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/flowcharts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/functions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/functions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/math.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/math.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/mergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/mergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/patterns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/patterns.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/recursionSubset_Self.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/recursionSubset_Self.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/strings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/assignments/sudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/assignments/sudokuSolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/maze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/subset.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/sudoku.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +92,7 @@
       <workItem from="1716310324670" duration="2685000" />
       <workItem from="1716386843200" duration="5754000" />
       <workItem from="1716442257400" duration="2769000" />
+      <workItem from="1717067100365" duration="4940000" />
     </task>
     <servers />
   </component>

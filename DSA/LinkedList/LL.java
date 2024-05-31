@@ -348,24 +348,75 @@ public class LL {
     }
 
     public boolean isPalindrome(Node head) {
-        Node mid=middleNode(head);
-        Node headSecond=reverseList(mid);
-        Node rereverseHead= headSecond;
+        Node mid = middleNode(head);
+        Node headSecondHalf = reverseList(mid);
+        Node reReverseHead= headSecondHalf;
 
-        while (head!=null && headSecond!=null ){
-            if (head.val != headSecond.val){
+        //compare the 2 halves
+        while (head!=null && headSecondHalf!=null){
+            if (head.val != headSecondHalf.val){
                 break;
             }
-            head=head.next;
-            headSecond=headSecond.next;
+            head = head.next;
+            headSecondHalf=headSecondHalf.next;
         }
-        reverseList(rereverseHead);
-        if (head==null || headSecond==null){
+        reverseList(reReverseHead);
+
+        if (head==null || headSecondHalf==null){
             return true;
         }
         return false;
     }
 
+    public void reorderList(Node head) {
+        if (head==null || head.next==null){
+            return;
+        }
+        Node mid= middleNode(head);
+        Node hs = reverseList(mid);
+        Node hf =head;
+
+        //rearrange
+
+        while(hf != null && hs != null){
+            Node temp = hf.next;
+            hf.next=hs;
+            hf=temp;
+
+            temp = hs.next;
+            hs.next=hf;
+            hs=temp;
+        }
+        // setting next of tail to null
+        if (hf!=null){
+            hf.next=null;
+        }
+
+
+    }
+
+    public Node rotateRight(Node head, int k) {
+        if (head==null || head.next==null || k<=0){
+            return head;
+        }
+        Node last = head;
+        int len=1 ;
+        while (last.next!=null){
+            last=last.next;
+            len++;
+
+        }
+        last.next=head;
+        int rotations= k%len;
+        int skip=len-rotations;
+        Node newLast = head;
+        for (int i = 0; i < skip-1; i++) {
+            newLast=newLast.next;
+        }
+        head = newLast.next;
+        newLast.next = null;
+        return head;
+    }
     public static void main(String[] args) {
         LL list=new LL();
         list.insertFirst(1);
