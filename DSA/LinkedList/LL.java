@@ -246,34 +246,34 @@ public class LL {
 
     }
 
-    public Node sortList(Node head) {
-        // bubble sort
-//        Node f= head;
-//        Node s= head;
-//        while(f!=null){
-//            if (s==null){
-//                s=head;
-//                f=head;
-//            }
-//            f=f.next;
-//            if(f.val<s.val){
-//                int temp = s.val;
-//                s.val=f.val;
-//                f.val=temp;
-//                s=s.next;
-//            }else{
-//                s=s.next;
-//            }
-//
+//    public Node sortList(Node head) {
+//        // bubble sort
+////        Node f= head;
+////        Node s= head;
+////        while(f!=null){
+////            if (s==null){
+////                s=head;
+////                f=head;
+////            }
+////            f=f.next;
+////            if(f.val<s.val){
+////                int temp = s.val;
+////                s.val=f.val;
+////                f.val=temp;
+////                s=s.next;
+////            }else{
+////                s=s.next;
+////            }
+////
+////        }
+////        return head;
+//        if (head==null){
+//            return null;
 //        }
-//        return head;
-        if (head==null){
-            return null;
-        }
-
-        boolean swap= false;
-
-    }
+//
+//        boolean swap= false;
+//
+//    }
 
     // LL REVERSAL USING RECURSION         *******
     public void reverseRec(Node node){
