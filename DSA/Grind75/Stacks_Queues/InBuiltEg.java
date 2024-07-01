@@ -1,8 +1,6 @@
 package Grind75.Stacks_Queues;
 
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class InBuiltEg {
     public static void main(String[] args) {
@@ -19,16 +17,23 @@ public class InBuiltEg {
 //        System.out.println(stack.pop());
 //        System.out.println(stack.pop());
 
-        Queue<Integer> queue = new LinkedList<>();
-        queue.add(1);
-        queue.add(2);
-        queue.add(3);
-        queue.add(4);
-        queue.add(5);
+//        Queue<Integer> queue = new LinkedList<>();
+//        queue.add(1);
+//        queue.add(2);
+//        queue.add(3);
+//        queue.add(4);
+//        queue.add(5);
+//
+//        System.out.println(queue.remove());
+//
+//        System.out.println(queue.peek());
 
-        System.out.println(queue.remove());
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.add(1);
+        deque.addFirst(2);
+        deque.addLast(3);
 
-        System.out.println(queue.peek());
+        System.out.println(deque.removeFirst());
 
     }
 }
