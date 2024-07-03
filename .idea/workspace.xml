@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA/StacksAndQueues/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/StacksAndQueues/CustomQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/StacksAndQueues/Questions/ImplementQueueByStcks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/StacksAndQueues/QueueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/ValidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/StacksAndQueues/Questions/LargestAreaHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/StacksAndQueues/Questions/TwoStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/TicTacToe/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/CusStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/CusStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/DynamicStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/InBuiltEg.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/InBuiltEg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/MainStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/MainStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/StackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/Stacks_Queues/StackException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Revision/revSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Revision/revSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/LinkedList/LL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/LinkedList/LL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Revision/revSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Revision/revSorting.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +103,10 @@
       <workItem from="1717667180710" duration="603000" />
       <workItem from="1717827094299" duration="38000" />
       <workItem from="1717828306057" duration="123000" />
-      <workItem from="1719809368492" duration="7797000" />
+      <workItem from="1719809368492" duration="8385000" />
+      <workItem from="1719975243724" duration="1866000" />
+      <workItem from="1719985374019" duration="2955000" />
+      <workItem from="1719999434398" duration="4703000" />
     </task>
     <servers />
   </component>
