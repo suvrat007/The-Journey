@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/BackspaceStringCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/LongestPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/MatrixCellsDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Grind75/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Grind75/Trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Grind75/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Grind75/LongestPalindrome.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +110,7 @@
       <workItem from="1719985374019" duration="2955000" />
       <workItem from="1719999434398" duration="4703000" />
       <workItem from="1720010189497" duration="892000" />
-      <workItem from="1720143221129" duration="14119000" />
+      <workItem from="1720143221129" duration="25437000" />
     </task>
     <servers />
   </component>

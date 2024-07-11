@@ -43,30 +43,19 @@ public class LongestPalindrome {
 
 
     public static int longestPalindrome(String s) {
-        Character[] list = new Character[s.length()];
-
-        for (int i = 0; i < s.length(); i++) {
-            list[i]=s.charAt(i);
+        int[] count = new int[128];
+        for (char ch : s.toCharArray()){
+            count[ch]++;
         }
-        int num = 0;
-
-        for (int i = 0; i < list.length; i++) {
-            for (int j = i+1; j < list.length; j++) {
-                if (list[i]==list[j]){
-                    num+=2;
-                    list[i]=list[j]=' ';
-                    break;
-                }
-                break;
+        int res = 0;
+        for (int i = 0; i < 128; i++) {
+            int val = count[i];
+            res = res + (val/2)*2;
+            if (res%2==0 && val%2==1){
+                res++;
             }
         }
-
-        for (int i = 0; i < list.length; i++) {
-            if (list[i] != ' '){
-                return num+1;
-            }
-        }
-        return num;
+        return res;
     }
 
 }
