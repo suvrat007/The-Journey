@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/BackspaceStringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/LongestPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/MatrixCellsDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/ReduceNumToZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/SortedSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/AVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/InvertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/SegmentTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/Trees/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Grind75/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Grind75/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSA/Grind75/MatrixCellsDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/MatrixCellsDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Grind75/MatrixCellsDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Grind75/MatrixCellsDistance.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +112,9 @@
       <workItem from="1719999434398" duration="4703000" />
       <workItem from="1720010189497" duration="892000" />
       <workItem from="1720143221129" duration="25437000" />
+      <workItem from="1720845049217" duration="2915000" />
+      <workItem from="1721125348964" duration="5086000" />
+      <workItem from="1721284245212" duration="1501000" />
     </task>
     <servers />
   </component>

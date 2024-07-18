@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MatrixCellsDistance {
-    public static void main(String[] args) {
-        ArrayList<int[]> arr= allCellsDistOrder(5,4,2,2);
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[0].length; j++) {
-                System.out.print(arr[i][j] + ",");
-            }
-            System.out.println();
-        }
-
-    }
+//    public static void main(String[] args) {
+//        ArrayList<int[]> arr= allCellsDistOrder(5,4,2,2);
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr[0].length; j++) {
+//                System.out.print(arr[i][j] + ",");
+//            }
+//            System.out.println();
+//        }
+//
+//    }
     public static ArrayList<int[]> allCellsDistOrder(int rows, int cols, int rCenter, int cCenter) {
         int[][] arr = new int[rows][cols];
 
