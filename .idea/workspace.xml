@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/ReduceNumToZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/SortedSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/AVL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/InvertTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Trees/SegmentTree.java" afterDir="false" />
+    <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="questions">
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/SmallerNumAfterSelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA/Grind75/MatrixCellsDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/DSA/Grind75/MatrixCellsDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WAGMI/Grind75/MatrixCellsDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WAGMI/Grind75/MatrixCellsDistance.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,12 +108,24 @@
       <workItem from="1720143221129" duration="25437000" />
       <workItem from="1720845049217" duration="2915000" />
       <workItem from="1721125348964" duration="5086000" />
-      <workItem from="1721284245212" duration="1501000" />
+      <workItem from="1721284245212" duration="5117000" />
     </task>
+    <task id="LOCAL-00001" summary="questions">
+      <created>1721286150165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721286150165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
