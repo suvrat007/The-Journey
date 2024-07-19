@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7afd06-59c6-4a7a-9968-2a91b80bec53" name="Changes" comment="questions">
-      <change afterPath="$PROJECT_DIR$/DSA/Grind75/SmallerNumAfterSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/Concepts/RandomString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA/Grind75/CountGoodNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +109,7 @@
       <workItem from="1720143221129" duration="25437000" />
       <workItem from="1720845049217" duration="2915000" />
       <workItem from="1721125348964" duration="5086000" />
-      <workItem from="1721284245212" duration="5117000" />
+      <workItem from="1721284245212" duration="11122000" />
     </task>
     <task id="LOCAL-00001" summary="questions">
       <created>1721286150165</created>
