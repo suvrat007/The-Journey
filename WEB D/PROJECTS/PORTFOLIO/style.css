@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Kalam", cursive;
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.name-line{
+    font-weight: 800;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+.intro{
+    display: flex;
+    /* border: rebeccapurple 2px solid; */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+.intro-text{
+    top: 35%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    animation: heartBeat 1s infinite ease-in;
+    /* border: rebeccapurple 2px solid; */
+
+}
+
+.bg-image{
+    position: absolute;
+    /* border: rebeccapurple 2px solid; */
+
+    max-width: 400px;
+    top: 25%;
+    left: 60%;
+    opacity: 80%;
+    animation: imageEntry 1s ease-in;
+    rotate: -10deg;
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px gainsboro;
+    /* border: rebeccapurple 2px solid; */
+
+}
+
+@keyframes showText{
+    0%{
+        opacity: 40%;
+        scale: 0.5;
+    }
+    85%{
+        opacity: 100%;
+        scale: 1.2;
+    }
+    97%{
+        scale: 1;
+    }
+}
+
+@keyframes heartBeat {
+    0%{
+        scale: 1;
+        opacity: 100%;
+    }
+    50%{
+        scale: 0.97;
+        opacity: 75%;
+    }
+    
+
+}
+@keyframes imageEntry {
+    0%{
+        opacity: 40%;
+        scale: 0.5;
+        rotate: 180deg;
+    }
+    50%{
+        opacity: 100%;
+        scale: 1.2;
+        rotate: 0deg;
+    }
+    100%{
+        rotate: -10deg;
+    }
+
+}
+
+
+.nav-bar{
+    display: flex;
+    width: 100%;
+    /* border: rebeccapurple 2px solid; */
+    font-size: 1.2em;
+
+    
+}
+.nav-items{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    /* border: rebeccapurple 2px solid; */
+    width: 100%;
+    padding: 5px 30px;
+}
+.nav-item{
+    list-style: none;
+}
+.hire{
+    font-family: inherit;
+    margin: -7px;
+    font-size: 0.9em;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.line-1{
+    z-index: 15;
+    opacity: 0.5;
+}
+.line-2{
+    z-index: 10;
+    opacity: 0.7;
+}
+.line-1{
+    z-index: 5;
+}
+
+.wave{
+    left: 0;
+    /* top: 0; */
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+    position: absolute;  
+}
+/* .wave-1, .wave-2, .wave-3 {
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+} */
+
+.wave-1{
+    /* -webkit-background-size: 50% 80px ; */
+    background-size: 50% 80px;
+    width: 100%;
+    background-size: contain;    
+    z-index: 1;
+}
+.wave-2{
+    
+    width: 100%;
+    background-size: 50% 100px;
+    animation: animation 12s linear infinite;
+    z-index: 2;
+  
+  
+}
+.wave-3{
+    width: 100%;
+    background-size: 50% 80px;
+    animation: animation 18s linear infinite;    
+    z-index: 3; 
+}
+
+@keyframes animation {
+    0%{
+        transform: translateX(0) translateY(0) scaleY(1);
+    }
+    50%{
+        transform: translateX(-25%) translateY(0) scaleY(0.5);
+    }
+    100%{
+        transform: translateX(-50%) translateY(0) scaleY(1);
+    }
+}
+
+.wave-border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* background-size: 1000px 100px; */
+    width: 100%;
+    max-height: 200px;  
+    /* overflow: hidden; */
+}
+
+

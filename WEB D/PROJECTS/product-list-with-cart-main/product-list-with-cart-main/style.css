@@ -32,7 +32,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items:flex-start;
     bottom: 0;
     font-family: inherit;
 
@@ -57,10 +57,60 @@ p, h3{
     font-size: 1.2em;
     top: -5%;
     background-color: white;
-    
     border: maroon 1px solid;
 }
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 135px;
+    height: 34px;
+    left: 28%;
+    bottom: 28%;
 
+}
+.add-cart-btn{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: maroon 1px solid;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.add-cart-btn:focus{
+    outline:none ;
+}
+.cart-btn.active{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background-color: red;
+    width: 115px;
+    height: 24px;
+    left: 28%;
+    bottom: 28%;
+    border-radius: 20px;
+    padding:  5px 10px;
+
+}
+.cart-btn.active + .img-element{
+    border: 3px solid red;
+
+}
+.cart-btn span{
+    color: white;
+}
+.increment-btn,.decrement-btn{
+    background-color: transparent;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
 .add-btn:active{
     outline: none;
     scale: 0.98;
@@ -98,7 +148,7 @@ p, h3{
 
 .empty-cart{
     width: 50%;
-    padding: 0% 25%; 
+    padding: 0 25%;
     position: relative;
     margin-top:15%;  
 }
@@ -109,9 +159,9 @@ p, h3{
     opacity: 60%;
 }
 
-.active{
-    background-color: red;
-}
+/*.active{*/
+/*    background-color: red;*/
+/*}*/
 
 button{
     display: flex;
