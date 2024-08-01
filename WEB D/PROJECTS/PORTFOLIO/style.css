@@ -1,7 +1,8 @@
 body{
     background-color: black;
     color: white;
-    font-family: "Playwrite BE VLG", cursive;
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 2px;
     display: flex;
     flex-wrap: wrap;
     max-width: 90%;
@@ -11,17 +12,19 @@ body{
     background-image: url('pic 1.jpg');
     background-repeat: no-repeat;
     background-size: cover;   
+    
 
 }
 
 .name-line{
     
-    font-weight: 800;
-    font-size: 3em;
+    font-weight: 600;
+    font-size: 3.5em;
     padding: 0;
     margin: 0;
 }
 .intro{
+    margin-top: 6%;
     display: flex;
     /* border: rebeccapurple 2px solid; */
     flex-direction: column;
@@ -32,7 +35,7 @@ body{
 .intro-text{
     top: 35%;
     max-height: 50vh;
-    left: 4%;
+    left: 6%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +58,7 @@ body{
     animation: imageEntry 1s ease-in;
     rotate: -7deg;
     border-radius: 10px;
-    box-shadow: 5px 5px 6px gainsboro;
+    /* box-shadow: 5px 5px 6px gainsboro; */
     /* border: rebeccapurple 2px solid; */
     padding: 0;
     margin-top: 0;
@@ -107,8 +110,9 @@ body{
 
 
 .nav-bar{
+    position: fixed;
     display: flex;
-    width: 100%;
+    width: 90%;
     /* border: rebeccapurple 2px solid; */
     font-size: 1.2em;
     
@@ -205,31 +209,63 @@ body{
     bottom:0;
     background-size: 1000px 100px;
     width: 75%;
-    max-height: 100px;  
+    max-height: 95px;  
    
 }
 
 
 
 .work-together{
-    border: rebeccapurple 2px  solid;
-    margin-top: 100px;
+    /* border: rebeccapurple 2px  solid; */
+    margin-top:4%;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 6%;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    height: 76vh;
+
+
 }
-.upper-line{
-    margin-top: 100px;
-    max-height: 4px;
-    /* position: absolute;   */
-    background-color: white;
-}
+
 .work-text{
     position: relative;
-    padding: 200px 100px;
+    padding: 12% 100px;
     font-size: 400%;
 }
+
+.about{
+    /* border: rebeccapurple 2px  solid; */
+    height: 78vh;
+    margin:  10% 0;
+    display: flex;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+    
+}
+
+.about-me{
+    padding-top: 20%;
+}
+
+.about-heading{
+    
+    /* border: rebeccapurple 2px  solid; */
+    font-size: 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me, .about-heading{
+    margin-bottom:0%;
+}
+
+
 
 
 
