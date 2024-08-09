@@ -1,6 +1,6 @@
 package Grind75.Stacks_Queues;
 
-public class CusStack {
+public class  CusStack {
     protected int[] data;               // array with defined length
     private static final int DEFAULT_SIZE= 10;
 
