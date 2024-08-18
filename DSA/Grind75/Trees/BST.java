@@ -54,11 +54,14 @@ public class BST {
     }
 
     private Node insert(int value , Node node){
+
+        // create at last and return node
         if (node==null){
             node = new Node(value);
             return node;
         }
 
+        // check for left side
         if (value < node.value){
             node.left= insert(value , node.left);
         }
