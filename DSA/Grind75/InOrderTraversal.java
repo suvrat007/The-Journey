@@ -14,6 +14,7 @@ public class InOrderTraversal {
           this.left = left;
           this.right = right;
       }
+    }
         public ArrayList<Integer> inorderTraversal(TreeNode root) {
             ArrayList<Integer> list = new ArrayList<>();
             helper(root, list);
