@@ -1,5 +1,7 @@
 package Grind75;
 
+import java.util.List;
+
 public class SwapPairs {
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
@@ -28,4 +30,37 @@ public class SwapPairs {
         return head;
 
     }
+
+    public ListNode swapAlt(ListNode head){
+        if (head==null || head.next==null){
+            return head;
+        }
+
+        ListNode node1 = head;
+        ListNode node2 = node1.next;
+        head= node2;
+        ListNode prev = null;
+
+        while (node1 !=null && node2 !=null){
+            swapper(node1, node2);
+
+            if (prev != null) {
+                prev.next = node2;  // ensure proper linkage of the list
+            }
+
+            // Move to the next pair
+            prev = node1;           // second node in the swapped pair
+            node1 = node1.next;
+            if (node1 != null) {
+                node2 = node1.next;
+            }
+        }
+        return head;
+    }
+
+    public void swapper(ListNode node1 , ListNode node2){
+        node1.next=node2.next;
+        node2.next = node1;
+    }
+
 }
