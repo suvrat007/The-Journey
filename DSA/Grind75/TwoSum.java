@@ -21,5 +21,34 @@ public class TwoSum {
         }
         return null;
     }
+//    public static int[] twoSumNew(int[] nums, int target) {
+//
+//        Arrays.sort(nums);
+//
+//        for (int i = 0; i < nums.length; i++) {
+//            int ans = binSearch(i , target , nums);
+//            if (ans != -1){
+//                int[] arr = {i,ans};
+//                return arr;
+//            }
+//        }
+//    }
+
+    public static int binSearch(int idx , int tgt , int[] arr){
+        int s = 0;
+        int e = arr.length-1;
+        int num = arr[idx];
+        while(s<=e){
+            int mid = s + (e-s)/2;
+            if (arr[mid]+num == tgt){
+                return arr[mid];
+            }else if(arr[mid]+num > tgt){
+                e=mid-1;
+            }else{
+                s=mid+1;
+            }
+        }
+        return -1;
+    }
 }
 

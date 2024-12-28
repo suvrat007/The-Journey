@@ -23,6 +23,7 @@ public class TreeNode {
             if (head==null || head.next==null){
                 return head;
             }
+            return head;
         }
         public void swapper(ListNode node1, ListNode node2){
             ListNode temp = node1;
